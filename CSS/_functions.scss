@@ -1,0 +1,9 @@
+@mixin btn($color: $MC, $BC: $white) {
+    background-color: $color;
+    color: $BC;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+}
